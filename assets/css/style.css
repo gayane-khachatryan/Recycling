@@ -1,0 +1,394 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-md{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.underline{
+    border-bottom: 2px solid white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:25px 0;
+}
+.d-none{
+    display: none;
+}
+.align-center{
+    align-items: center;
+}
+header{
+    padding: 20px ;
+    border-bottom: 2px solid #000000;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    .row{
+        justify-content: space-between;
+    }
+}
+.logo{
+    width: 100px;
+    object-fit: contain;
+}
+.menu{
+    li{
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            padding:0 20px;
+            text-transform: uppercase;
+            color: #131212;
+        }
+    }
+}
+.mobile-menu-icon{
+    display: none;
+    font-size: 30px;
+}
+.btn{
+    background-color: #6b90b1;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 15px 30px;
+    border: none;
+}
+.recycling{
+    padding: 50px 0;
+
+}
+.heading{
+    width: 75%;
+}
+.header{
+    width: 20%;
+}
+
+.text{
+    font-size: 80px;
+    display: block;
+}
+.sm-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.course{
+    padding: 50px 0;
+    .btn{
+        color: black;
+        background-color: #ccb995;
+
+    }
+    .sm-img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 80px;
+
+    }
+}
+.banner{
+    width: 49%;
+    color: white;
+
+}
+.title{
+    font-size: 55px;
+    padding: 20px 0;
+}
+.text-sm{
+    padding-bottom: 20px;
+}
+.edit{
+    background-image: url("https://assets.nicepagecdn.com/11a8ddce/6450233/images/2148549052.jpg");
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+.img-md{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    border-radius: 10%;
+
+}
+.editing{
+    background-color: #6b90b1;
+    width: 49%;
+    padding: 30px;
+    border-radius: 20px;
+    h4{
+        font-size: 35px;
+        padding: 10px 0;
+    }
+    h5{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+}
+.editing-new{
+    background-color: #ccb995;
+    width: 49%;
+    padding: 30px;
+    color: black;
+    border-radius: 20px;
+    h4{
+        font-size: 35px;
+        padding: 10px 0;
+    }
+    h5{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+}
+.sustain{
+    padding: 50px 0;
+}
+.title-md{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.normal-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.section-heading{
+    width: 49%;
+    position: relative;
+    border-radius: 10%;
+    overflow: hidden;
+    img{
+
+    }
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+    h3{
+        color: white;
+    }
+
+    &:hover{
+        background-color: rgba(12, 25, 104, 0.65);
+    }
+}
+
+
+.fixing{
+    background-color: #b19899;
+    color: white;
+    padding: 30px;
+    border-radius: 10%;
+    font-size: 20px;
+    p{
+        font-size: 20px;
+        padding: 25px 0;
+    }
+}
+.service{
+    padding: 50px 0;
+
+}
+.heading-new{
+    width: 32%;
+    background-color: #6b91b3;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+
+    p{
+        font-size: 20px;
+        padding-bottom: 10px ;
+    }
+    img{
+        width: 80%;
+    }
+    button{
+        background-color: #ccb995;
+        color: black;
+        border-radius: 20px;
+        font-size: 15px;
+
+        padding: 20px 35px;
+        border: none;
+        margin-top: 130px;
+
+    }
+}
+.new-heading{
+    background-color: rgba(232, 232, 232, 0.54);
+    padding:20px 0 0 0 ;
+    width: 32%;
+    border-radius: 10%;
+    position: relative;
+    text-align: center;
+
+    p{
+        font-size: 20px;
+        padding: 25px 0;
+    }
+    .picture{
+
+        width: 100%;
+        height: 35vh;
+        object-fit: cover;
+        border-radius: 10%;
+
+    }
+
+}
+.badge{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+.my-4{
+    margin: 40px 0;
+}
+.crop-img{
+    width: 70px;
+    height: 70px;
+}
+.resources{
+    background-color: #ccb995;
+}
+.banner-new{
+    width: 40%;
+    h2{
+        font-size: 55px;
+
+    }
+    p{
+        font-size: 17px;
+        padding: 20px 0;
+    }
+}
+.back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: .3;
+    i{
+        font-size: 25px;
+        padding: 15px 17px;
+        background: blue;
+        color: white;
+        border-radius: 50%;
+    }
+    &:hover{
+        opacity: 1;
+    }
+
+}
+.card-list{
+    width: 49%;
+
+}
+.column-card{
+    width: 74%;
+    img{
+        width: 70px;
+        height: 70px;
+        border-radius: 20%;
+        padding: 10px;
+        background-color: #ffffff;
+    }
+}
+.align-items{
+    align-items: center;
+}
+.column-info{
+    width: 75%;
+    h3{
+        font-size: 20px;
+        font-weight: lighter;
+        margin-bottom: 15px;
+
+    }
+    p{
+        font-size: 16px;
+        color: #020202;
+        margin-bottom: 20px;
+        line-height: 1.2;
+        font-weight: lighter;
+
+    }
+    .ads{
+        width: 100%;
+        height: 100vh;
+        background: rgba(255, 0, 0, 0.25);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+    }
+    .container-ads{
+        max-width: 800px;
+        width: 100%;
+        height: 50vh;
+        background: white;
+    }
+    .d-none{
+        display: none;
+    }
+
+    .cubik{
+        width: 30%;
+        height: 500px;
+        border:1px solid;
+        position: relative;
+
+    }
+
+    .boxik{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 128, 0, 0.36);
+        position: absolute;
+        top: 0;
+    }
+
+
+
+
+
+

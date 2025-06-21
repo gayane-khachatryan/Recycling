@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1000px){
+    .text{
+        text-align: center;
+        font-size: 70px;
+    }
+    .header{
+        width: 80%;
+    }
+    .container{
+        padding:0 10px;
+    }
+.editing,.editing-new{
+    padding:15px;
+}
+.img-md{
+    height:auto;
+}
+
+}
+@media only screen and (max-width: 800px){
+
+    .banner{
+        width: 83%;
+    }
+    .section-heading{
+        width: 75%;
+    }
+    .banner-new{
+        width: 55%;
+        text-align: center;
+    }
+    .card-lists.my-4{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .header{
+        width: 89%;
+    }
+    .new-heading{
+        width: 45%;
+    }
+    .heading-new{
+        width: 45%;
+    }
+    .text{
+        font-size: 50px;
+    }
+
+    header .btn{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .column-card{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .section-heading{
+        width: 90%;
+    }
+    .banner-new{
+        width: 77%;
+    }
+    .heading-new{
+        width: 50%;
+        padding: 10px 5px 10px 10px;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .header{
+        display: none;
+    }
+    .editing{
+        width: 100%;
+    }
+    .editing-new{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+    .banner{
+        width: 95%;
+    }
+    .new-heading{
+        width: 75%;
+    }
+    .heading-new{
+        width: 75%;
+    }
+    .column-card{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .banner-new{
+        width: 100%;
+    }
+    .section-heading{
+        width: 100%;
+    }
+}
