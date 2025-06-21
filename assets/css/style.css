@@ -7,9 +7,6 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-    background-color: rgba(210, 105, 30, 0.34);
-}
 .container {
     max-width: 1200px;
     margin: 0 auto;
